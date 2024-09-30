@@ -1,8 +1,8 @@
 //Assignment 1 - Jen MacDonald - 301000349 - Sep 28,2024
 import React from "react";
 import './Style.css';
-
-// Import your images
+import project1Image from './project1Image.png';
+import project2Image from './project2Image.png';
 import project3Image from './project3Image.png';
 
 function Projects() {
@@ -11,15 +11,16 @@ function Projects() {
       <h1>My Projects</h1>
 
       <div className="project">
-
+      <img src={project1Image} alt="Project 1" />
         <div>
           <h3>Project 1: Portfolio Website</h3>
           <p>Role: Web Developer</p>
-          <p>Description: Built a personal portfolio website using React (the one you are currently viewing).</p>
+          <p>Description: Built a personal portfolio website using React that I am creating (the one you are currently viewing).</p>
         </div>
       </div>
 
       <div className="project">
+      <img src={project2Image} alt="Project 2" />
         <div>
           <h3>Project 2: Caverns of Chaos</h3>
           <p>Role: Developer and programmer</p>

@@ -1,10 +1,15 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Style.css';
+import Jen from './Jen.png';
 
 const Navbar = () => {
     return (
       <nav className="navbar">
+        <div className='logo'>
+         <img src={Jen} alt="Logo" />   
+        </div>
+        
         <ul className="nav-links">
           <li>
             <Link to="/">Home</Link>

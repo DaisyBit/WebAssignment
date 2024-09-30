@@ -17,12 +17,14 @@ function Contact() {
 
   return (
     <><div className="contact-info">
-      <p><strong>Jen MacDonald</strong></p>
-      <p><strong>Email:</strong> jmacdo68@my.centennialcollege.com</p>
-    </div>
-    
-    <div>
-        <h1>Contact Me</h1>
+      <h1>My Contact me here!</h1>
+
+        <div className="myInfo-container">
+        <p>Jen MacDonald</p>
+        <p>Email: jmacdo68@my.centennialcollege.com</p>
+      </div>
+
+        <h1>Or submit a form!</h1>
         <form onSubmit={handleSubmit}>
           <input type="text" name="firstName" placeholder="First Name" onChange={handleChange} />
           <input type="text" name="lastName" placeholder="Last Name" onChange={handleChange} />
