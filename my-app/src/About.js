@@ -4,9 +4,8 @@ import './Style.css';
 
 function About()
 {
-    return
-    (
-        <div>
+    return(
+        <div className="About-container">
             <h1>About Me</h1>
 
             <p>
